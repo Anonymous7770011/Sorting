@@ -13,5 +13,4 @@ for i in range(len(d)):
     while d[i]>0:
         l.append(i)
         d[i]=d[i]-1
-
 print("Result : ",l)
