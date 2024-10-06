@@ -9,7 +9,6 @@ for i in range(len(l)):
     d[l[i]]=d[l[i]]+1
 l.clear()
 print('Count V: ',d)
-
 for i in range(len(d)):
     while d[i]>0:
         l.append(i)
