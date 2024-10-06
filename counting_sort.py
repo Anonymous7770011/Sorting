@@ -14,6 +14,3 @@ for i in range(len(d)):
         l.append(i)
         d[i]=d[i]-1
 print("Result : ",l)
-
-
-
